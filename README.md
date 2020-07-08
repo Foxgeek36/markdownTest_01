@@ -1,4 +1,5 @@
-# 一级标题(标题设置)
+### 标题设置
+# 一级标题
 ## 二级标题
 ### 三级标题
 #### 四级标题
@@ -20,7 +21,8 @@
 ![test](https://github.com/Foxgeek36/markdownTest_01/blob/master/img/ocr.PNG "img test")
 ------------
 ### 添加代码
-note:1-每行开头空四格；2-用反引号将代码包裹
+note:1-每行开头空四格  
+     2-用反引号将代码包裹
 ```
     def test():
         print('anything is possible')
@@ -53,3 +55,14 @@ note:'+'与后面的文字内容之间需'空一格'
 刘备|哭|大哥
 关羽|打|二哥
 张飞|骂|三弟
+
+### 流程图
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
